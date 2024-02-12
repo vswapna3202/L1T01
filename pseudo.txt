@@ -1,0 +1,58 @@
+#An algorithm that asks the user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs
+#the largest of the numbers that was input
+
+Set flag to true
+Set maxNumber to 0
+
+loop while flag is true 
+
+	Get positive number from user 
+	
+	if positive number is 0 
+		set flag to false
+	
+	if max number is 0 or if positive number is greater than max number
+		Set positive number to max number variable
+	
+end loop		
+Print the max number
+
+#An algorithm that requests the user to input their name and then stores their name in a variable called first_name. Subsequently it prints
+#first_name along with the phrase " Hello World"
+
+Input the user name and store this in variable first_name
+Output first_name and "Hello World"
+
+#An algorithm that reads arbitrary number of integers and then returns their arithmetic average
+
+input number of integers and assign it to variable n
+initialise counter as 0
+initialise total as 0
+loop while counter is less than n
+	input the number from user
+	compute total as total add number
+	increment counter by 1
+end loop
+calculate average by dividing  total by  n
+return average back to user
+
+#An algorithm that reads a grocery list and prints out the products in alphabetical order that are still left to buy
+
+loop through every item in the grocery list
+	check if item has been bought or not
+	if item has not been bought add item to new list of items
+end loop
+sort the new list in alphabetical order
+if items exists in new list
+print all the items in the new list 
+else
+print message "all items have already been bought"
+
+
+#An algorithm for the flow chart
+
+input variables X and Y from user
+Calculate S as sum of X and Y
+Calculate A as S divided by 2
+Calculate P as X multiplied by Y
+Print the calculated variables S, A and P
